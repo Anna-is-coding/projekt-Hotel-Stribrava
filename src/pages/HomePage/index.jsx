@@ -1,8 +1,8 @@
 import './style.css';
-import { Banner } from '../components/Banner/Banner.jsx';
-import { Kontakt } from '../components/Kontakt/Kontakt.jsx';
-import { Pokoje } from '../components/Pokoje/Pokoje.jsx';
-import { Rezervace } from '../components/Rezervace/Rezervace.jsx';
+import { Banner } from '../../components/Banner/Banner.jsx';
+import { Kontakt } from '../../components/Kontakt/Kontakt.jsx';
+import { Pokoje } from '../../components/Pokoje/Pokoje.jsx';
+import { Rezervace } from '../../components/Rezervace/Rezervace.jsx';
 
 export const HomePage = () => {
   return (
