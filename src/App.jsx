@@ -1,11 +1,7 @@
-import RoomList from './components/RoomList';
+import { HomePage } from './pages/HomePage';
 
 function App() {
-  return (
-    <div className="App">
-      <RoomList />
-    </div>
-  );
+  return <HomePage />;
 }
 
 export default App;
