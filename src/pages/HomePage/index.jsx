@@ -1,4 +1,21 @@
-import './style.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HomePage } from './pages/HomePage';
+import { PokojDetail } from './components/Pokoje/PokojDetail';
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/pokoje/:id" element={<PokojDetail />} /> {/* ✅ */}
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+
+/*import './style.css';
 import { Banner } from '../../components/Banner/Banner.jsx';
 import { Kontakt } from '../../components/Kontakt/Kontakt.jsx';
 import { Pokoje } from '../../components/Pokoje/Pokoje.jsx';
@@ -14,6 +31,7 @@ export const HomePage = () => {
     </>
   );
 };
+*/
 
 // export const HomePage = () => {
 //   return (
