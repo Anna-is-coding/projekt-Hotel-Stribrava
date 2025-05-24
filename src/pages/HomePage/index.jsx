@@ -1,6 +1,9 @@
 import './style.css';
+import { Banner } from '../components/Banner';
+import { Kontakt } from '../components/Kontakt';
 
-export const HomePage = () => {
+
+/* export const HomePage = () => {
   return (
     <>
       <div class="banner">
@@ -103,3 +106,4 @@ export const HomePage = () => {
     </>
   );
 };
+*/

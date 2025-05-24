@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react';
 
 
 const RoomList = () => {
-  const [rooms, setRooms] = useState([]); // do rooms se uloží data z APIimport React from 'react';
+  const [rooms, setRooms] = useState([]); 
 
     useEffect(() => {
     fetch('http://localhost:4000/api/rooms')
       .then((response) => response.json())
       .then((data) => {
-        setRooms(data); // sem uložíš výsledek z API
+        setRooms(data); 
       });
-  }, []); // prázdné pole = provede se jen jednou při načtení
+  }, []); 
 
     return (
     <div>
