@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Pokoj 1",
+    "description": "Popis pokoje 1",
+    "price": 1000,
+    "image": "pokoj01.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pokoj 2",
+    "description": "Popis pokoje 2",
+    "price": 1200,
+    "image": "pokoj02.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pokoj 3",
+    "description": "Popis pokoje 3",
+    "price": 1200,
+    "image": "pokoj03.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pokoj 4",
+    "description": "Popis pokoje 4",
+    "price": 1200,
+    "image": "pokoj04.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pokoj 5",
+    "description": "Popis pokoje 5",
+    "price": 1200,
+    "image": "pokoj05.jpg"
+  }
+]
