@@ -4,8 +4,7 @@ import { Kontakt } from '../components/Kontakt';
 import { Pokoje } from '../components/Pokoje';
 import { Rezervace } from '../components/Rezervace';
 
-
-/* export const HomePage = () => {
+export const HomePage = () => {
   return (
     <>
       <Banner />
@@ -15,9 +14,6 @@ import { Rezervace } from '../components/Rezervace';
     </>
   );
 };
-<<<<<<< HEAD
-*/
-=======
 
 // export const HomePage = () => {
 //   return (
@@ -125,4 +121,3 @@ import { Rezervace } from '../components/Rezervace';
 //     </>
 //   );
 // };
->>>>>>> 2e24a552b3267064579da4f298ade92115dc419e
